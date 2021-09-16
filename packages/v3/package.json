@@ -1,7 +1,7 @@
 {
-  "name": "@carbon/vue-3",
+  "name": "@rigglo/carbon-vue-3",
   "version": "0.2.6",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "start-storybook -p 6006",
     "build": "vue-cli-service build --target lib --name carbon-vue-3 ./src/index.js --no-clean",

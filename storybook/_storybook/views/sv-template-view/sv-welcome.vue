@@ -2,16 +2,12 @@
   <main class="welcome">
     <div class="welcome__hero">
       <h1 class="welcome__heading">
-        <span class="nowrap"> <span class="highlight">Carbon</span> Design system </span>
-        <span class="nowrap">
-          in
-          <span class="highlight">Vue.js</span>
-        </span>
+        <span class="nowrap">@rigglo/<span class="highlight">carbon-vue</span> </span>
       </h1>
     </div>
     <div class="welcome__info">
       <div class="bx--row">
-        <div class="bx--no-gutter-md--left bx--col-md-4 bx--col-lg-4">
+        <div class="bx--no-gutter-md--left bx--offset-lg-2 bx--col-md-4 bx--col-lg-4">
           <a class="welcome__card" href="https://github.com/rigglo/carbon-components-vue">
             <div class="bx--aspect-ratio bx--aspect-ratio--2x1">
               <div class="bx--aspect-ratio--object">
@@ -93,61 +89,15 @@
     </div>
     <footer class="welcome__footer bx--grid">
       <div class="bx--row">
-        <div class="bx--col-md-2 bx--col-lg-2">
-          <ul>
-            <li class="welcome__footer-list-item">
-              <a href="https://www.carbondesignsystem.com/how-to-contribute/overview" aria-label="Contribute"
-                >Contribute</a
-              >
-            </li>
-            <li class="welcome__footer-list-item">
-              <a href="https://www.ibm.com/privacy" aria-label="Privacy">Privacy</a>
-            </li>
-            <li class="welcome__footer-list-item">
-              <a href="https://www.ibm.com/legal" aria-label="Terms of use">Terms of use</a>
-            </li>
-            <li class="welcome__footer-list-item">
-              <a href="https://www.ibm.com/" aria-label="IBM.com">IBM.com</a>
-            </li>
-          </ul>
-        </div>
-        <div class="bx--col-md-2 bx--col-lg-2">
-          <ul>
-            <li class="welcome__footer-list-item">
-              <a href="https://medium.com/carbondesign" aria-label="Medium">Medium</a>
-            </li>
-            <li class="welcome__footer-list-item">
-              <a href="https://twitter.com/_carbondesign" aria-label="Twitter">Twitter</a>
-            </li>
-            <li class="welcome__footer-list-item">
-              <a href="https://www.netlify.com/" aria-label="Netlify">Netlify</a>
-            </li>
-          </ul>
-        </div>
         <div class="welcome__footer-info bx--offset-lg-2 bx--col-sm-3 bx--col-md-4 bx--col-lg-4">
+          <h3>Acknowledgement</h3>
           <p>
-            Have questions? Email us or open
-            <br />an issue on
-            <a
-              target="blank"
-              href="https://github.com/carbon-design-system/carbon-components-vue/issues/new/choose"
-              style="text-decoration: underline;"
-              >GitHub.</a
-            >
+            A huge thank you to IBM for making Carbon Design System publicly available. This project is a fork of the
+            original <a href="https://github.com/carbon-design-system/carbon-components-vue">@carbon/vue</a> package,
+            and it would not be possible without the help of the many contributors of the original and other projects.
           </p>
-          <ul v-if="hasPackageInfo">
-            <li>{{ packageName }} latest version: {{ packageLatest }}</li>
-            <li v-for="(version, tag) of packageOtherTags" :key="tag">
-              {{ packageName }} {{ tag }} version: {{ version }}
-            </li>
-          </ul>
-          <p>
-            <span v-if="hasPackageInfo">Last updated {{ packageUpdated }} <br /></span>Copyright © 2019 IBM
-          </p>
+          <h4>Thank you!</h4>
         </div>
-      </div>
-      <div class="bx--row">
-        <div class="bx--col-lg-3"></div>
       </div>
     </footer>
   </main>
@@ -187,8 +137,8 @@ export default {
 <style lang="scss" scoped>
 .welcome {
   min-height: 100vh;
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .welcome__hero {
@@ -260,7 +210,7 @@ export default {
   .welcome__footer-list-item {
     padding: 1px 0;
     a {
-      color: #f4f4f4;
+      color: #000;
       font-size: 0.875rem;
       font-weight: 400;
       line-height: 1.125rem;
@@ -274,7 +224,7 @@ export default {
 
   .welcome__footer-info p,
   .welcome__footer-info ul {
-    color: #f4f4f4;
+    color: #000;
     font-size: 0.875rem;
     font-weight: 400;
     line-height: 1.125rem;
@@ -283,7 +233,7 @@ export default {
     padding-bottom: 1rem;
 
     a {
-      color: #f4f4f4;
+      color: #000;
     }
   }
 

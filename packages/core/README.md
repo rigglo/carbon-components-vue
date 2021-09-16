@@ -4,11 +4,7 @@
 [![CircleCI](https://circleci.com/gh/carbon-design-system/carbon-components-vue.svg?style=shield)](https://circleci.com/gh/carbon-design-system/carbon-components-vue)
 
 > Vue implementation of the Carbon Design System
-> A collection of [Carbon Components](https://github.com/carbon-design-system/carbon-components) implemented using <img src="https://vuejs.org/images/logo.png" width="20" alt="Vue logo"> [Vue.js](https://vuejs.org/).
-
-<div style="text-align: center">
-  <img src="/docs/AtCarbonVue2.png" alt="@carbon/vue">
-</div>
+> A collection of [Carbon Components](https://github.com/carbon-design-system/carbon-components) implemented using [Vue.js](https://vuejs.org/).
 
 ## Carbon Vue library - A Carbon Community Project
 
@@ -71,13 +67,13 @@ sass)
 Using Yarn
 
 ```sh
-$ yarn add @carbon/vue
+yarn add @carbon/vue
 ```
 
 Or npm
 
 ```sh
-$ npm install --save @carbon/vue
+npm install --save @carbon/vue
 ```
 
 In src/main.js add the following to include the carbon styles and components.
@@ -150,13 +146,13 @@ That's it! Now start the server and start building.
 Using Yarn
 
 ```sh
-$ yarn serve
+yarn serve
 ```
 
 Or npm
 
 ```sh
-$ npm serve
+npm serve
 ```
 
 ### Install
