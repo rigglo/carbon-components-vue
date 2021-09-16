@@ -12,9 +12,9 @@ addDecorator(withNotes);
 
 addParameters({
   options: {
-    name: 'Carbon Components in Vue.js',
-    url: 'https://github.com/carbon-design-system/carbon-components-vue/blob/main/packages/core/README.md',
-    theme: themes.dark,
+    name: '@rigglo/carbon-vue',
+    url: 'https://github.com/rigglo/carbon-components-vue/blob/main/packages/core/README.md',
+    theme: themes.normal,
     isToolshown: true,
     showPanel: true,
   },
