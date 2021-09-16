@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.41.0
+
+fix: CvTabs issue with beforeDestroy hook
+
 ## 2.40.0
 
 feat: CvFileUploader mark dropped files of the wrong type as invalid
@@ -247,7 +251,7 @@ Dropdown value presentation
 
 ## 2.24.0
 
-##£ Feat
+## £ Feat
 
 - Left and right options added to cv-tooltip
 
@@ -269,13 +273,13 @@ Publis canary fixes as listed
 
 ## 2.23.2-canary.1
 
-### Fix
+###  Fix
 
 - CvContentSwitcher adds tablist to container #849
 
 ## 2.23.2-canary.0
 
-### Fix
+###  Fix
 
 - CvDropdown placeholder updates
 - CvContentSwitcher accessibility violation #849
@@ -284,7 +288,7 @@ Publis canary fixes as listed
 
 - Removed spurious 'await' usage
 
-## 2.23.1
+##  2.23.1
 
 Roll up of canary releases.
 
@@ -292,7 +296,7 @@ Roll up of canary releases.
 
 ## Feat
 
-- Add hideLabel property to CvCheckbox and raised bug relating to the shape of the component https://github.com/carbon-design-system/carbon/issues/5461
+- Add hideLabel property to CvCheckbox and raised bug relating to the shape of the component <https://github.com/carbon-design-system/carbon/issues/5461>
 
 ## Fix
 
@@ -334,6 +338,7 @@ Roll up of canary releases.
 
 - Mobile number input version
 - Expanded property added to UIShell sidenav menus
+
 -
 
 ### Fix
@@ -536,7 +541,7 @@ Roll up of canary releases.
 
 Allow number input to work with string or number for value, v-model and events.
 
-### Chore
+###  Chore
 
 Updated tests for
 
@@ -1092,7 +1097,7 @@ Versions reflect those version was built using.
 - CvCodeSnippet
 - CvCheckbox
 
-## 1.0.0 (Feb 19, 2019) :balloon: :tada: :balloon: :coffee: :balloon:
+## 1.0.0 (Feb 19, 2019) :balloon: :tada: :balloon: :coffee: :balloon
 
 - Add actions option to data table
 - Add batch actions option to data table
