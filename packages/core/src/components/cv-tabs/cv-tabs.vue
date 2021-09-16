@@ -195,6 +195,10 @@ export default {
       }
     },
     doScrollIntoView(index) {
+      if (!this.$refs.link || !this.$refs.link.length) {
+        return;
+      }
+
       const tab = this.$refs.link[index];
       const scrollContainer = tab.parentNode ? tab.parentNode.parentNode : null;
       let newScrollLeft;
